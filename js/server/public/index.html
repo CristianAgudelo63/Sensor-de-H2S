@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2e8d0339c.js"></script>
+  <title>Sensor de H2S</title>
+</head>
+<body>
+
+  <div class="contenedor">
+    <h1 class="titulo">Sensor de Sulfuro de Hidrógeno</h1>
+  </div>
+
+  <div class="grid">
+    <div class="contenedor h2s">
+      <h2>H<small>2</small>S</h2>
+      <hr>
+      <!-- <div class="dato">
+        <div class="p-dato a-dato s-dato">
+          <p><span id="microGramo">7</span> ug/m3</p>
+        </div>
+        <div class="p-dato a-dato s-dato">
+          <p><span id="partesPorMillon">12</span> pmm</p>
+        </div>
+        <div class="advertencia"><i class="fas fa-check seguro">¡Sin Peligro!</i></div>
+        <div class="advertencia"><i class="fas fa-exclamation-triangle cuidado">¡Ten Cuidado!</i></div>
+        <div class="advertencia"><i class="fas fa-skull-crossbones peligro">¡PELIGRO!</i></div>
+      </div> -->
+
+      <div class="dato">
+        <div class="p-dato">
+          <p><span class="micro" id="microGramo">7</span> µg/m<sup>3</sup></p>
+        </div>
+        <div class="s-dato">
+          <p><span class="partes" id="partesPorMillon">12</span> pmm</p>
+        </div>
+      </div>
+      <div class="advertencia"><i class="fas fa-check seguro">¡Sin Peligro!</i></div>
+      <div class="advertencia"><i class="fas fa-exclamation-triangle cuidado">¡Ten Cuidado!</i></div>
+      <div class="advertencia"><i class="fas fa-skull-crossbones peligro">¡PELIGRO!</i></div>
+    </div>
+
+    <div class="o-datos">
+      <div class="contenedor temp">
+        <h2>Temperatura</h2>
+        <hr>
+        <div class="dato">
+          <p><span>28</span> C°</p>
+        </div>
+      </div>
+      <div class="contenedor hum">
+        <h2>Humedad</h2>
+        <hr>
+        <div class="dato">
+          <p><span>60</span> %</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contenedor">
+    <h2>Serial Plotter</h2>
+    <hr>
+    <canvas id="canvas" class="canvas">
+
+    </canvas>
+  </div>
+
+  <div class="contenedor">
+    <p class="desarrollado">Open Source desarrollado por: Diego A. Trujillo, Cristian Agudelo, Juan E. Molina, Miguel Duque y Jary D. Monsalve.</p>
+    <li><a target="_blank" href="https://github.com/CristianAgudelo63/Sensor-de-Sulfuro">GitHub</a></li>
+    <li><a target="_blank" href="https://cristiangudelo63.wixsite.com/misitio">Página Web</a></li>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.0/dist/chart.min.js"></script>
+  <script src="../../node_modules/socket.io/client-dist/socket.io.min.js"></script>
+  <script src="./main.js"></script>
+  <script src="./canvas.js"></script>
+</body>
+</html>

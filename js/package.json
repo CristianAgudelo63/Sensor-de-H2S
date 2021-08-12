@@ -1,11 +1,15 @@
 {
 	"name": "sensor-de-sulfuro",
 	"version": "1.0.0",
-	"description": "",
-	"main": "código.js",
+	"author": "Diego A. Trujillo, Cristian Agudelo, Juan E. Molina, Miguel Duque y Jary D. Monsalve.",
+	"description": "SENSOR OLFATIVO TIPO NARIZ PARA DETECTAR LA PRESENCIA DE SULFURO DE HIDRÓGENO CERCA DE AGUAS RESIDUALES",
+	"main": "code.js",
 	"dependencies": {
+		"express": "^4.17.1",
 		"firmata-party": "^2.0.1",
-		"johnny-five": "^2.1.0"
+		"johnny-five": "^2.1.0",
+		"serialport": "^9.2.0",
+		"socket.io": "^4.1.3"
 	},
 	"devDependencies": {},
 	"scripts": {
@@ -13,6 +17,5 @@
 		"reset": "firmata-party uno --debug"
 	},
 	"keywords": [],
-	"author": "",
 	"license": "ISC"
 }

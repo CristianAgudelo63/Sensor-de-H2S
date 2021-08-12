@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #f2f2f2;
+  margin: 0 auto;
+  max-width: 80%;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+span{
+  font-size: 40px;
+}
+
+hr{
+  width: 30%;
+  border: 1px solid #333;
+  margin: 0 auto;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+}
+
+a{
+  color: #3686e6;
+}
+
+.contenedor{
+  background: #fff;
+  box-shadow: 0px 0px 30px rgb(221 221 221 / 30%);
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.titulo{
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.dato{
+  padding: 10px;
+  text-align: center;
+}
+
+.partes, .micro{font-size: 60px;}
+
+.p-dato, .s-dato, .a-dato{
+  border-radius: 10px;
+  margin: 5px 0px 5px 0px;
+}
+
+.p-dato{background: #e60d00;}
+.peligro{color: #e60d00;}
+
+.a-dato{background: #e5be01;}
+.cuidado{color: #e5be01;}
+
+.s-dato{background: #16c416;}
+.seguro{color: #16c416;}
+
+.advertencia{
+  font-size: 20px;
+  display: inline-block;
+  margin: 10px 10px 0px 10px;
+}
+
+.canvas{
+  width: auto;
+  height: 150px;
+}
+
+.desarrollado{
+  font-weight: 300;
+}

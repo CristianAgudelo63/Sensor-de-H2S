@@ -6,7 +6,7 @@
 
 const { Board, Led } = require('johnny-five');
 const circuito = new Board({
-	port: 'COM5',
+	port: 'COM5' //Cambiar puerto dependiendo de donde esta conectado la placa
 });
 
 circuito.on('ready', () => {
