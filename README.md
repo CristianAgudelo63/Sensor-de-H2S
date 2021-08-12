@@ -1,9 +1,19 @@
-# Sensor de Sulfuro
-Código fuente del proyecto "SENSOR OLFATIVO TIPO NARIZ PARA DETECTAR LA PRESENCIA DE SULFURO DE HIDRÓGENO CERCA DE AGUAS RESIDUALES".
+# Sensor de Sulfuro de Hidrógeno
 
-## Página Web:
+Código fuente del proyecto "Sensor Olfativo Tipo Nariz Para Detectar La Presencia De Sulfuro De Hidrógeno Cerca De Aguas Residuales", [ingresa a la página web del proyecto](https://cristiangudelo63.wixsite.com/misitio).
 
-[www.cristiangudelo63.wixsite.com/misitio](https://cristiangudelo63.wixsite.com/misitio)
+Clona el repositorio con Git Bash con el comando:
+
+```sh
+$ git clone https://github.com/CristianAgudelo63/Sensor-de-Sulfuro.git
+```
+
+## Descargar las librerías para Arduino
+En el IDE de Arduino, descarga las librerías o blibliotecas para que funcione el código. Descarga las librerías que no tenga instalado:
+
+- DHT sensor library
+- MQUnifiedsensor
+- SoftwareSerial
 
 ## Imágenes
 
