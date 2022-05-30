@@ -5,7 +5,7 @@ Código fuente del proyecto "Sensor Olfativo Tipo Nariz Para Detectar La Presenc
 Clona el repositorio con Git Bash con el comando:
 
 ```sh
-$ git clone https://github.com/CristianAgudelo63/Sensor-de-Sulfuro.git
+$ git clone https://github.com/CristianAgudelo63/Sensor-de-H2S.git
 ```
 
 ## Descargar las librerías para Arduino
